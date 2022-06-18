@@ -8,7 +8,7 @@ export const Navbar = () => {
         <a className="navbar-brand text-white fs-5 mx-3 fw-bold" href="/">
           AnkitBisen
         </a>
-        <div class="collapse navbar-collapse" id="navbarColor01">
+        <div className="collapse navbar-collapse" id="navbarColor01">
           <button
             className="navbar-toggler"
             type="button"

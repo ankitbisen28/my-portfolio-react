@@ -7,10 +7,10 @@ export const Footer = () => {
     <div className="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
         <div className="container text-center py-5">
             <div className="d-flex justify-content-center mb-4">
-                <a className="btn btn-light btn-social mx-2" target="_blank" href="https://www.instagram.com/ankybisen/"><i className="bi bi-instagram"></i></a>
-                <a className="btn btn-light btn-social mx-2" target="_blank" href="https://github.com/ankitbisen28"><i className="bi bi-github"></i></a>
-                <a className="btn btn-light btn-social mx-2" target="_blank" href="https://www.linkedin.com/in/ankit-bisen-0a4587208/"><i className="bi bi-linkedin"></i></a>
-                <a className="btn btn-light btn-social" target="_blank" href="https://twitter.com/ankitbisen28"><i className="bi bi-twitter"></i></a>
+                <a className="btn btn-light btn-social mx-2" rel="noreferre" href="https://www.instagram.com/ankybisen/"><i className="bi bi-instagram"></i></a>
+                <a className="btn btn-light btn-social mx-2" rel="noreferre" href="https://github.com/ankitbisen28"><i className="bi bi-github"></i></a>
+                <a className="btn btn-light btn-social mx-2" rel="noreferre" href="https://www.linkedin.com/in/ankit-bisen-0a4587208/"><i className="bi bi-linkedin"></i></a>
+                <a className="btn btn-light btn-social" rel="noreferre" href="https://twitter.com/ankitbisen28"><i className="bi bi-twitter"></i></a>
             </div>
             <div className="d-flex justify-content-center mb-3">
                 <a className="text-white" href="/">Privacy</a>

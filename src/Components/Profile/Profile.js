@@ -1,4 +1,5 @@
 import React from "react";
+import AnkitImage from './AnkitBisen.png'
 
 import "./Profile.css";
 import TypeWriterEffect from "react-typewriter-effect";
@@ -43,7 +44,7 @@ export const Profile = () => {
               <div className="img">
                 <img
                   className="rounded-circle Profile-image"
-                  src="../images/AnkitBisen.png"
+                  src={AnkitImage}
                   alt=""
                 />
               </div>
