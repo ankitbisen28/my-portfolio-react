@@ -60,9 +60,13 @@
     font-size: 1rem;
   }
 
+  .btn, .btn:hover {
+    margin-top: 5px;
+  }
+
   .img img {
-    width: 201px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
 
   .align-items-center {
@@ -103,6 +107,10 @@
 @media (min-width: 1200px) { 
   .Profile-cover{
     padding-top: 5rem;
+  }
+
+  .Profile-section h1 {
+    font-size: 2rem;
   }
  }
 

@@ -26,7 +26,7 @@ export const About = () => {
               />
             </div>
             <div className="col-lg-7">
-              <h3 className="mb-4">UI/UX Designer & Web Developer</h3>
+              <h3 className="mb-4">Web Developer</h3>
               <p>
                 Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit
                 amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd
@@ -36,41 +36,36 @@ export const About = () => {
               <div className="row mb-3">
                 <div className="col-sm-6 py-2">
                   <h6>
-                    Name: <span className="text-primary">Kate Winslet</span>
+                    Name: <span className="text-primary">Ankit Bisen</span>
                   </h6>
                 </div>
                 <div className="col-sm-6 py-2">
                   <h6>
                     Birthday:{" "}
-                    <span className="text-primary">1 April 1990</span>
+                    <span className="text-primary">28 August 2002</span>
                   </h6>
                 </div>
                 <div className="col-sm-6 py-2">
                   <h6>
-                    Degree: <span className="text-primary">Master</span>
+                    Degree: <span className="text-primary">Bvoc Software Development</span>
                   </h6>
                 </div>
                 <div className="col-sm-6 py-2">
                   <h6>
-                    Experience: <span className="text-primary">10 Years</span>
-                  </h6>
-                </div>
-                <div className="col-sm-6 py-2">
-                  <h6>
-                    Phone: <span className="text-primary">+012 345 6789</span>
+                    Experience: <span className="text-primary">1 Years</span>
                   </h6>
                 </div>
                 <div className="col-sm-6 py-2">
                   <h6>
                     Email:{" "}
-                    <span className="text-primary">info@example.com</span>
+                    <span className="text-primary" typeof="email">bisenankit80@gmail.com</span>
                   </h6>
                 </div>
                 <div className="col-sm-6 py-2">
                   <h6>
                     Address:{" "}
                     <span className="text-primary">
-                      123 Street, New York, USA
+                      Gondia, Maharashtra, India.
                     </span>
                   </h6>
                 </div>
