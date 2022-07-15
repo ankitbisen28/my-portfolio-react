@@ -5,7 +5,16 @@
   width: 100%;
 }
 
-.Profile-section {
+.Profile-left {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Profile-right {
   height: 60vh;
   width: 100%;
   display: flex;
@@ -50,52 +59,105 @@
   padding: 10px;
 }
 
-/* // X-Small devices (portrait phones, less than 576px) */
-/* // No media query for `xs` since this is the default in Bootstrap */
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 300px) { 
-
-  .Profile-section h1 {
-    font-size: 1rem;
+@media (min-width: 225px) { 
+  .Profile-left {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-
-  .btn, .btn:hover {
-    margin-top: 5px;
+  .Profile-right {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .img img {
-    width: 100px;
-    height: 100px;
+    width: 205px;
+    height: 205px;
+  }
+ }
+
+ /* // Small devices (landscape phones, 576px and up) */
+ @media (min-width: 400px) { 
+  .img img {
+    width: 150px;
+    height: 150px;
   }
 
-  .align-items-center {
-    text-align: center;
+  .Profile-left {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
-  .Profile-section {
+  .Profile-right {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+ 
+ /* // Small devices (landscape phones, 576px and up) */
+ @media (min-width: 500px) { 
+  .img img {
+    width: 175px;
+    height: 176px;
+  }
+
+  .Profile-left {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Profile-right {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  }
+  
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 600px) { 
+  .Profile-right {
     height: 60vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
- }
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-
-  .Profile-section h1 {
-    font-size: 1rem;
+  .Profile-left {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-
-  .img img {
-    width: 201px;
-    height: 200px;
-  }
- }
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-  
  }
 
 /* // Large devices (desktops, 992px and up) */
@@ -105,13 +167,7 @@
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-  .Profile-cover{
-    padding-top: 5rem;
-  }
-
-  .Profile-section h1 {
-    font-size: 2rem;
-  }
+  
  }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */

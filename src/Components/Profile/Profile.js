@@ -1,5 +1,5 @@
 import React from "react";
-import AnkitImage from './AnkitBisen.png'
+import AnkitImage from "./AnkitBisen.png";
 
 import "./Profile.css";
 import TypeWriterEffect from "react-typewriter-effect";
@@ -10,7 +10,7 @@ export const Profile = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <div className="Profile-section">
+            <div className="Profile-left">
               <h1>Ankit Bisen</h1>
               <div className="typewriter-section">
                 <TypeWriterEffect
@@ -34,13 +34,15 @@ export const Profile = () => {
                 />
               </div>
               <div className="Profile-buttons my-3">
-                <div className="btn btn-outline-dark mx-3">Contact Me</div>
-                <div className="btn btn-dark">Resume</div>
+                <a href="#contact">
+                  <div className="btn btn-dark mx-3">Contact Me</div>
+                </a>
+                {/* <div className="btn btn-dark">Resume</div> */}
               </div>
             </div>
           </div>
           <div className="col">
-            <div className="Profile-section">
+            <div className="Profile-right">
               <div className="img">
                 <img
                   className="rounded-circle Profile-image"

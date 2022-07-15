@@ -26,7 +26,7 @@ export const About = () => {
               />
             </div>
             <div className="col-lg-7">
-              <h3 className="mb-4">Web Developer</h3>
+              <h3 className="mb-4">MERN Stack Developer</h3>
               <p>
                 Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit
                 amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd
@@ -75,10 +75,10 @@ export const About = () => {
                   </h6>
                 </div>
               </div>
-              <a href="/" className="btn btn-outline-primary mr-4">
+              <a href="#contact" className="btn btn-outline-primary mr-4">
                 Hire Me
               </a>
-              <a href="/" className="btn btn-outline-primary mx-2">
+              <a href="#portfolio" className="btn btn-outline-primary mx-2">
                 Learn More
               </a>
             </div>
