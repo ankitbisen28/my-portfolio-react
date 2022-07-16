@@ -19,7 +19,7 @@ export const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-5 pb-4 pb-lg-0">
               <img
-                className="img-fluid rounded w-75"
+                className="img-fluid rounded w-100"
                 style={{}}
                 src={me}
                 alt=""

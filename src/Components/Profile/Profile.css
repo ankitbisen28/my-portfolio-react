@@ -63,15 +63,22 @@
 // No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 225px) { 
+@media (max-width: 600px) { 
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+
   .Profile-left {
-    height: 25vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
+
   .Profile-right {
     height: 35vh;
     width: 100%;
@@ -82,17 +89,18 @@
   }
 
   .img img {
-    width: 205px;
-    height: 205px;
+    width: 200px;
+    height: 200px;
   }
  }
 
  /* // Small devices (landscape phones, 576px and up) */
- @media (min-width: 400px) { 
-  .img img {
-    width: 150px;
-    height: 150px;
+ @media (min-width: 601px) { 
+  .d-flex {
+    display: flex;
+    flex-direction: row;
   }
+
 
   .Profile-left {
     height: 50vh;
@@ -110,54 +118,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+
+  .img img {
+    width: 200px;
+    height: 200px;
   }
 }
  
  /* // Small devices (landscape phones, 576px and up) */
  @media (min-width: 500px) { 
-  .img img {
-    width: 175px;
-    height: 176px;
-  }
 
-  .Profile-left {
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .Profile-right {
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
   }
   
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 600px) { 
-  .Profile-right {
-    height: 60vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
 
-  .Profile-left {
-    height: 60vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
  }
 
 /* // Large devices (desktops, 992px and up) */
